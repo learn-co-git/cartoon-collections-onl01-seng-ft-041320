@@ -29,7 +29,7 @@ def find_the_cheese(array)
   array.each do |ele|
     return ele if cheese.include?(ele)
   end
-  false
+  return nil 
 end
  
 
